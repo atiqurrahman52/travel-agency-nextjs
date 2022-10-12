@@ -1,0 +1,12 @@
+
+.single-destination {
+  background-image: url("../assets//images/single-destination/single-destination.svg");
+}
+
+
+input:focus{
+  box-shadow: none !important;
+}
+textarea:focus{
+  box-shadow: none !important;
+}

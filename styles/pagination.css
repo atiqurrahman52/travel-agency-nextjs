@@ -1,0 +1,42 @@
+.pagination {
+    display: flex;
+  
+    list-style: none;
+    cursor: pointer;
+    justify-content: center;
+    gap: 16px;
+  }
+  
+  .pagination a {
+    border: 1px solid #f1b4c4;
+    height: 32px;
+    width: 32px;
+    border-radius: 8px;
+    color: #d00338e5;
+    font-family: "Ubuntu";
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .pagination__link {
+    font-weight: bold;
+    background-color: #d51c4c;
+    color: white !important;
+  
+  }
+  .pagination__link--active a {
+  
+    background-color: #f1b4c4;
+    border-radius: 8px;
+    border: 1px solid #d0033a00;
+  }
+  .pagination__link--disable a {
+    background-color: #f1b4c433;
+    border-radius: 6px;
+  
+    color: #393e5066 !important;
+    border: none !important;
+  }
+  

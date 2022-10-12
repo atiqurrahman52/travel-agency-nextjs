@@ -1,0 +1,25 @@
+.destination-bg {
+  background-image: url("/assets/images/destination/destination.png");
+}
+
+.filter-active {
+  background: #f1b4c4;
+  border: 1px solid rgba(208, 3, 56, 0.4);
+}
+/* .single-destination {
+  background-image: url("../assets//images/single-destination/single-destination.svg");
+} */
+
+.scroll-bar {
+}
+.scroll-bar::-webkit-scrollbar {
+  height: 3px;
+}
+.scroll-bar::-webkit-scrollbar-track {
+  border-radius: 50px;
+  background: #cecece;
+}
+.scroll-bar::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background: #e46d8c;
+}
