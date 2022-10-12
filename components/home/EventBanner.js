@@ -1,9 +1,4 @@
 import Image from "next/image";
-// import '../../styles/event-banner.css'
-
-// import '../../styles/event-banner.css'
-
-
 
 const EventBanner = () => {
   return (
