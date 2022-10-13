@@ -1,8 +1,7 @@
 import Image from "next/image";
-import React from "react";
 import Slider from "react-slick";
-import { partners } from "../../public/assets/data/home/partnersData";
 
+import { partners } from "../../public/assets/data/home/partnersData";
 
 const Partners = () => {
   const settings = {
@@ -32,6 +31,7 @@ const Partners = () => {
       },
     ],
   };
+
   return (
     <div className="mb-[60px] lg:mb-[94px]">
       <div className="container">
@@ -45,19 +45,16 @@ const Partners = () => {
         </div>
 
         <Slider {...settings}>
-          {partners.map(({id,img}) => (
+          {partners?.map(({ id, img }) => (
             <div key={id}>
-                
-              <div className="grayscale-[100%] hover:grayscale-[0%]  w-[70px] lg:w-[100px]   h-[20px] lg:h-[25px] object-cover mx-auto my-4">
+              <div className="relative grayscale hover:grayscale-0 w-[70px] lg:w-[100px] h-[20px] lg:h-[56px] mx-auto my-4">
                 <Image
                   src={img}
                   alt=""
                   layout="fill"
-                //   objectFit="cover"
-                //   width={100} height={50}
+                  objectFit="contain"
                 />
               </div>
-               
             </div>
           ))}
         </Slider>
