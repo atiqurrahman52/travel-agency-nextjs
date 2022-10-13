@@ -1,14 +1,12 @@
 import React from "react";
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
+
 import { MapPin } from "phosphor-react";
 import Slider from "react-slick";
-// import { asiaSlider } from "../../data/home/asiaData";
-import { asiaSlider } from "../../public/assets/data/home/asiaData";
-import "slick-carousel/slick/slick.css"; 
+
+import { asiaData } from "../../public/assets/data/home/asiaData";
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
-
 
 const Asia = () => {
   const settings = {
@@ -53,22 +51,27 @@ const Asia = () => {
   };
 
   return (
-    <div className="mb-[60px] lg:mb-[104px]">
+    <div className="mb-[60px] lg:mb-[124px]">
       <div className="container ">
-        <h2 className="text-center font-quentin font-normal md:text-[80px] text-[32px]
-          md:leading-[90px] leading-[48px] md:mb-[64px] mb-[40px] text-transparent bg-clip-text bg-gradient-to-r from-[#F43B47]/100 to-[#453A94]/100">
+        <h2
+          className="text-center font-quentin font-normal md:text-[80px] text-[32px]
+          md:leading-[90px] leading-[48px] md:mb-[64px] mb-[40px] text-transparent bg-clip-text bg-gradient-to-r from-[#F43B47]/100 to-[#453A94]/100"
+        >
           {" "}
           Asia{" "}
         </h2>
 
         <Slider {...settings}>
-          {asiaSlider.map(({id,city,details,price,img}) => (
+          {asiaData.map(({ id, city, details, price, img }) => (
             <div key={id} className="relative gap-x-4">
-              <div className="mx-2" >
-                {/* <Image src={`/assets/images/asia/${asia.img}`}   */}
-                <Image src={img}  
-                     alt="" width={306} height={408} className='w-full' />
-              
+              <div className="mx-2">
+                <Image
+                  src={img}
+                  alt=""
+                  width={306}
+                  height={408}
+                  className="w-full"
+                />
               </div>
               <div className="flex items-center gap-2 absolute bottom-24 left-5 text-white">
                 <MapPin size={16} />

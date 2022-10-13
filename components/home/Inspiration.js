@@ -27,21 +27,16 @@ const Inspiration = () => {
               >
      
               
-                  {/* <img
-                    src={image.img}
-                    className="group-hover:scale-110 transition duration-1000 w-full h-full object-cover bg-[#0000004D]/20"
-                    alt=""
-                  /> */}
-                 <div className="group-hover:scale-110 transition duration-1000 w-full h-full object-cover bg-[#0000004D]/20" > 
+                
+                 <div className="group-hover:scale-110 transition duration-1000 w-full h-full object-cover bg-[#0000004D]/30" > 
                  <Image
                     src={img}
                     layout="fill"
                     objectFit="cover"
-                    
                     alt=""
                   />
                  </div>
-                  <p className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] text-white font-nunito font-extrabold text-[24px] leading-[30px]">
+                  <p className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] text-white font-nunito font-extrabold text-[24px] md:text-[16px] leading-[30px] md:leading-[20px]">
                    {name}
                   </p>
              

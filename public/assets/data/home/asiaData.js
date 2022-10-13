@@ -1,11 +1,4 @@
-// import colombo from "../../assets/images/asia/colombo.png";
-// import newDelhi from "../../assets/images/asia/newDelhi.png";
-// import coxsBazar from "../../assets/images/asia/coxsBazar.png";
-// import zanzibar from "../../assets/images/asia/zanzibar.png";
-// import mauritius from "../../assets/images/asia/mauritius.png";
-// import madagascar from "../../assets/images/asia/madagascar.png";
-
-const asiaSlider = [
+const asiaData = [
     {
       id: 0,
       city: "Colombo",
@@ -58,4 +51,4 @@ const asiaSlider = [
   ];
   
 
-  export {asiaSlider}
+  export {asiaData}

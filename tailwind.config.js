@@ -30,6 +30,10 @@ module.exports = {
         quentin: ["Quentin", "sans-serif"],
         nunito: ["Nunito", "sans-serif"],
         squarepeg: ["Square Peg", "cursive"],
+        nunitoSans: ["Nunito Sans", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
+        pridi: ["Pridi", "serif"],
+        teko: ["Teko", "sans-serif"],
       },
       colors: {
         primary: "#393E50",

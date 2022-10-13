@@ -1,60 +1,55 @@
-import colombo from "../../assets/images/asia/colombo.png";
-import newDelhi from "../../assets/images/asia/newDelhi.png";
-import coxsBazar from "../../assets/images/asia/coxsBazar.png";
-import zanzibar from "../../assets/images/asia/zanzibar.png";
-import mauritius from "../../assets/images/asia/mauritius.png";
-import madagascar from "../../assets/images/asia/madagascar.png";
 
-const europeSlider = [
-    {
-      id: 0,
-      city: "Colombo",
-      details: "Tropical Sri-lanka || 6Day-5Night",
-      price: "$59000.00",
-      img: colombo,
-    },
-    {
-      id: 1,
-      city: "Coxs Bazar",
-      details: "Generous Cox’s Bazar | 6Day-5Night",
-      price: "$59000.00",
-      img: coxsBazar,
-    },
-    {
-      id: 2,
-      city: "New Delhi",
-      details: "Manali Jeep Safari | 12Day-11Night",
-      price: "$59000.00",
-      img: newDelhi,
-    },
-    {
-      id: 3,
-      city: "Madagascar",
-      details: "Dreaming Madagascar | 6Day-5Night",
-      price: "$59000.00",
-      img: madagascar,
-    },
-    {
-      id: 4,
-      city: "Mauritius",
-      details: "Calming Mauritius | 6Day-5Night",
-      price: "$59000.00",
-      img: mauritius,
-    },
-    {
-      id: 5,
-      city: "Zanzibar",
-      details: "Beautiful Zanzibar || 6Day-5Night",
-      price: "$59000.00",
-      img: zanzibar,
-    },
-    {
-      id: 6,
-      city: "Madagascar",
-      details: "Dreaming Madagascar | 6Day-5Night",
-      price: "$59000.00",
-      img: madagascar,
-    },
-  ];
+const europeData = [
+  {
+    id: 0,
+    city: "Istanbul",
+    details: "Incredible Turkey | 6Day-5Night",
+    price: "$59000.00",
+    img: "/assets/images/europe/istanbul.png",
+  },
+  {
+    id: 1,
+    city: "Zurich",
+    details: "Charming Switzerland | 6Day-5Night",
+    price: "$59000.00",
+    img: "/assets/images/europe/zurich.png",
+  },
+  {
+    id: 2,
+    city: "Paris",
+    details: "Lovely Paris || 6Day-5Night",
+    price: "$59000.00",
+    img: "/assets/images/europe/paris.png",
+  },
+  {
+    id: 3,
+    city: "Stockholm",
+    details: "Dreaming Stockholm | 6Day-5Night",
+    price: "$59000.00",
+    img: "/assets/images/europe/stockholm.png",
+  },
+  {
+    id: 4,
+    city: "Helsinki",
+    details: "Calming Helsinki | 6Day-5Night",
+    price: "$59000.00",
+    img: "/assets/images/europe/helsinki.png",
+  },
+  {
+    id: 5,
+    city: "Warsaw",
+    details: "Beautiful Warsaw  || 6Day-5Night",
+    price: "$59000.00",
+    img: "/assets/images/europe/warsaw .png",
+  },
+  {
+    id: 6,
+    city: "Oslo",
+    details: "Dreaming Oslo | 6Day-5Night",
+    price: "$59000.00",
+    img: "/assets/images/europe/oslo.png",
+  },
+];
 
-  export {europeSlider}
+
+export {europeData}

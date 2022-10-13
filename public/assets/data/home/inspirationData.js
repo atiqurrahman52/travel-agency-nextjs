@@ -1,10 +1,3 @@
-// "/assets/images/inspiration/ladhak.png"
-// "/assets/images/inspiration/dubai.png"
-// "/assets/images/inspiration/sydney.png"
-// "/assets/images/inspiration/edinburgh.png"
-// "/assets/images/inspiration/kilimanjaro.png"
-// "/assets/images/inspiration/miyajima.png"
-// "/assets/images/inspiration/beijing.png"
 
 const images = [
     {
