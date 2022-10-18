@@ -36,10 +36,10 @@ const Partners = () => {
     <div className="mb-[60px] lg:mb-[94px]">
       <div className="container">
         <div className="text-center">
-          <h3 className="font-nunito font-extrabold  lg:text-[48px] text-[24px] text-primary lg:leading-[56px] leading-[40px] md:mb-[20px] mb-[14px]">
+          <h3 className="font-nunito font-extrabold  lg:text-[48px] text-2xl text-primary lg:leading-[56px] leading-10 md:mb-[20px] mb-[14px]">
             Our Partners
           </h3>
-          <p className="font-nunito text-center font-[600] text-tertiary text-[16px] leading-[20px] md:mb-[60px] mb-[40px]">
+          <p className="font-nunito text-center font-[600] text-tertiary text-base leading-[20px] md:mb-[60px] mb-10">
             We team up with the best to give you an unmatchable experience
           </p>
         </div>

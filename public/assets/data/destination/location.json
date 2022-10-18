@@ -1,0 +1,120 @@
+[
+    {
+      "id": 0,
+      "country": "Turkey",
+      "details": "Incredible Turkey, Istanbul",
+      "days": "5days | ",
+      "price": "$59,000",
+      "img": "/assets/images/destination/dubai.png",
+      "category": "asia"
+    },
+    {
+      "id": 1,
+      "country": "Edinburgh",
+      "details": "Incredible Edinburgh, Edinburgh",
+      "days": "5days | ",
+      "price": "$59,000",
+      "img": "/assets/images/destination/edinburgh.png",
+      "category": "europe"
+    },
+    {
+      "id": 2,
+      "country": "Fuji",
+      "details": "Incredible Fuji, Fuji",
+      "days": "5days | ",
+      "price": "$59,000",
+      "img": "/assets/images/destination/fuji.png",
+      "category": "asia"
+    },
+    {
+      "id": 3,
+      "country": "Halti",
+      "details": "Incredible Halti, Halti",
+      "days": "5days | ",
+      "price": "$59,000",
+      "img": "/assets/images/destination/halti.png",
+      "category": "north america"
+    },
+    {
+      "id": 4,
+      "country": "Turkey",
+      "details": "Incredible Turkey, Istanbul",
+      "days": "5days | ",
+      "price": "$59,000",
+      "img": "/assets/images/destination/istanbul.png",
+      "category": "asia"
+    },
+    {
+      "id": 5,
+      "country": "Kilimanjaro",
+      "details": "Incredible Kilimanjaro, Kilimanjaro",
+      "days": "5days | ",
+      "price": "$59,000",
+      "img": "/assets/images/destination/kilimanjaro.png",
+      "category": "africa"
+    },
+    {
+      "id": 6,
+      "country": "Krimona",
+      "details": "Incredible Krimona, Krimona",
+      "days": "5days | ",
+      "price": "$59,000",
+      "img": "/assets/images/destination/krimona.png",
+      "category": "europe"
+    },
+    {
+      "id": 7,
+      "country": "Ladhak",
+      "details": "Incredible Ladhak, Ladhak",
+      "days": "5days | ",
+      "price": "$59,000",
+      "img": "/assets/images/destination/ladhak.png",
+      "category": "asia"
+    },
+    {
+      "id": 8,
+      "country": "Nordic",
+      "details": "Incredible Nordic, Nordic",
+      "days": "5days | ",
+      "price": "$59,000",
+      "img": "/assets/images/destination/nordic.png",
+      "category": "europe"
+    },
+    {
+      "id": 9,
+      "country": "Paris",
+      "details": "Incredible Paris, Paris",
+      "days": "5days | ",
+      "price": "$59,000",
+      "img": "/assets/images/destination/paris.png",
+      "category": "europe"
+    },
+    {
+      "id": 10,
+      "country": "Sydney",
+      "details": "Incredible Sydney, Sydney",
+      "days": "5days | ",
+      "price": "$59,000",
+      "img": "/assets/images/destination/sydney.png",
+      "category": "asia"
+    },
+    {
+      "id": 11,
+      "country": "Zurich",
+      "details": "Incredible Zurich, Zurich",
+      "days": "5days | ",
+      "price": "$59,000",
+      "img": "/assets/images/destination/zurich.png",
+      "category": "europe"
+    },
+    {
+      "id": 12,
+      "country": "Ladhak",
+      "details": "Incredible Ladhak, Ladhak",
+      "days": "5days | ",
+      "price": "$59,000",
+      "img": "/assets/images/destination/ladhak.png",
+      "category": "asia"
+    }
+  ]
+  

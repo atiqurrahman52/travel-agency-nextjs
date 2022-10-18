@@ -1,6 +1,9 @@
 .destination-bg {
-  background-image: url("/assets/images/destination/destination.png");
+  
+  background-image: url("../public/assets/images/destination/destination-bg.png");
+
 }
+/* } */
 
 .filter-active {
   background: #f1b4c4;
@@ -10,8 +13,8 @@
   background-image: url("../assets//images/single-destination/single-destination.svg");
 } */
 
-.scroll-bar {
-}
+/* .scroll-bar {
+} */
 .scroll-bar::-webkit-scrollbar {
   height: 3px;
 }

@@ -20,9 +20,79 @@
   clip-path: ellipse(100% 100% at 50% 0%);
   background: #ce03391a;
 }
+
 @media only screen and (max-width: 1021px) {
   .curb {
     clip-path: none;
     clip-path: ellipse(100% 61% at 53% 49%);
   }
 }
+
+
+
+/* preloader */
+#preloader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 99999;
+  background: #fff;
+}
+.loading {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 68px;
+  margin-bottom: 41px;
+  color: #D41B4B;
+}
+.loading span {
+  display: inline-block;
+  margin: 0 -0.05em;
+  letter-spacing: 17px;
+}
+
+#preloader::after {
+  background: #fff;
+}
+.loading span {
+  animation: 1s infinite alternate loading;
+}
+.loading span:first-child {
+  animation-delay: 0s;
+}
+.loading span:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.loading span:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.loading span:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.loading span:nth-child(5) {
+  animation-delay: 0.4s;
+}
+.loading span:nth-child(6) {
+  animation-delay: 0.5s;
+}
+.loading span:nth-child(7) {
+  animation-delay: 0.6s;
+}
+.loading span:nth-child(8) {
+  animation-delay: 0.6s;
+}
+.loading span:nth-child(9) {
+  animation-delay: 0.6s;
+}
+@keyframes loading {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/* preloader */

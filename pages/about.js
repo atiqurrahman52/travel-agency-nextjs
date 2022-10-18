@@ -5,14 +5,15 @@ import Partners from "../components/home/Partners";
 import Layout from "../components/layout/Layout";
 
 const About = () => {
-    return (
-        <Layout>
-            <AboutUs />
-            <Service />
-            <Partners />
-            <Package />
-        </Layout>
-    );
+  return (
+    <Layout>
+      <AboutUs />
+      <Service />
+      <Partners />
+      <Package />
+    </Layout>
+  );
 };
 
 export default About;
+

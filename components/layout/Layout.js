@@ -1,13 +1,18 @@
+import Head from "next/head";
+
 import Footer from "../navigation/Footer";
 import NavBar from "../navigation/Navbar";
 
-const Layout = ({ children }) => {
+const Layout = ({ children, head }) => {
   return (
-    <div>
+    <>
+      <Head>
+        <title>{head ? head : "Tourelish"}</title>
+      </Head>
       <NavBar />
       {children}
       <Footer />
-    </div>
+    </>
   );
 };
 
