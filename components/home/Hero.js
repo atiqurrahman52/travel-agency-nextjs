@@ -89,7 +89,7 @@ const Hero = () => {
                 <span className="text-accent font-nunito font-extrabold lg:text-xl text-base leading-[28px]">
                   +
                 </span>
-                <p className="text-primary font-nunito font-normal lg:text-base text-sm leading-[20px]">
+                <p className="text-primary font-nunito font-normal lg:text-base text-sm leading-5">
                   Countries
                 </p>
               </div>
@@ -143,7 +143,7 @@ const Hero = () => {
                 <span className="text-accent font-nunito font-extrabold lg:text-xl text-base leading-[28px]">
                   +
                 </span>
-                <p className="text-primary font-nunito font-normal lg:text-base text-sm leading-[20px]">
+                <p className="text-primary font-nunito font-normal lg:text-base text-sm leading-5">
                   Travel Experiences
                 </p>
               </div>
@@ -204,7 +204,7 @@ const Hero = () => {
                 <span className="text-accent font-nunito font-extrabold lg:text-xl text-base leading-[28px]">
                   Best Price
                 </span>
-                <p className="text-primary font-nunito font-normal lg:text-base text-sm leading-[20px]">
+                <p className="text-primary font-nunito font-normal lg:text-base text-sm leading-5">
                   Best Price
                 </p>
               </div>
@@ -253,7 +253,7 @@ const Hero = () => {
                   {" "}
                   Million+
                 </span>
-                <p className="text-primary font-nunito font-normal lg:text-base text-sm leading-[20px]">
+                <p className="text-primary font-nunito font-normal lg:text-base text-sm leading-5">
                   User Connected
                 </p>
               </div>

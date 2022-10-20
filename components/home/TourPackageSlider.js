@@ -69,7 +69,7 @@ const TourPackageSlider = ({ data, sectionTitle }) => {
               <MapPin size={16} />
               <p>{location}</p>
             </div>
-            <div className="lg:text-black  text-base font-nunito font-semibold leading-[20px] mt-6">
+            <div className="lg:text-black  text-base font-nunito font-semibold leading-5 mt-6">
               <p className="mb-[9px]">
                 <span>{packageName}</span> &#124;{" "}
                 <span>{facilities[0].details}</span>

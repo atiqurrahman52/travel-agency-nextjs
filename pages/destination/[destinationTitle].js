@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-
+import { useRouter } from "next/router";
 // components
 import Layout from "../../components/layout/Layout";
 import Featured from "../../components/home/Featured";
@@ -8,11 +8,12 @@ import Tags from "../../components/singleDestination/Tags";
 import TourItinerary from "../../components/singleDestination/TourItinerary";
 import SingleDestinationFacilities from "../../components/singleDestination/SingleDestinationFacilities";
 import Loader from "../../components/shared/Loader";
+import SingleDestinationGallery from "../../components/singleDestination/SingleDestinationGallery";
 
-// data
-import { useRouter } from "next/router";
 import RelatedDestination from "../../components/singleDestination/RelatedDestination";
 import SingleDestinationForm from "../../components/singleDestination/SingleDestinationForm";
+
+import singleDestinationGalleryData from "../../public/assets/data/destination/singleDestinationGalleryData";
 
 const DestinationTitle = () => {
   const router = useRouter();
@@ -42,6 +43,7 @@ const DestinationTitle = () => {
             <div className="col-span-12 lg:col-span-8">
               <SingleDestinationFacilities data={destinationData} />
               <TourItinerary data={destinationData} />
+              <SingleDestinationGallery data={destinationData.gallery} />
             </div>
             <div className="col-span-12 lg:col-span-4">
               <SingleDestinationForm />
@@ -49,6 +51,7 @@ const DestinationTitle = () => {
               <Tags />
             </div>
           </div>
+
           <Featured />
         </Layout>
       )}

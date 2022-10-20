@@ -43,23 +43,23 @@ const footerData = [
       },
       {
         title: "About Us",
-        path: "/",
+        path: "/about",
       },
       {
         title: "Destinations",
-        path: "/",
+        path: "/destination",
       },
       {
         title: "GALLERY",
-        path: "/",
+        path: "/gallery",
       },
       {
         title: "Terms & Conditions",
-        path: "/",
+        path: "#",
       },
       {
         title: "License",
-        path: "/",
+        path: "#",
       },
     ],
   },

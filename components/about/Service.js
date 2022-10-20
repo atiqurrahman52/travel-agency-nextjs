@@ -11,7 +11,7 @@ const Service = () => {
               <h3 className="text-[#393E50] lg:text-[40px] text-xl font-nunito font-extrabold lg:leading-[48px] leading-[28px] lg:mb-[20px] mb-[26px]">
                 Why should Your Use Our Services?
               </h3>
-              <p className="text-[#747474] text-base font-nunito font-semibold leading-[20px] mb-10">
+              <p className="text-[#747474] text-base font-nunito font-semibold leading-5 mb-10">
                 Our point is to make worldwide corporate travel the board more
                 customized and consistent. Whats more, we do this through an
                 organization of remarkable nearby offices that are pioneers in
@@ -31,7 +31,7 @@ const Service = () => {
                     </span>
                   </div>
 
-                  <p className="text-[ #393E50] font-nunito font-semibold text-base leading-[20px] opacity-[.4]">
+                  <p className="text-[ #393E50] font-nunito font-semibold text-base leading-5 opacity-[.4]">
                     Country Touched
                   </p>
                 </div>
@@ -47,7 +47,7 @@ const Service = () => {
                     </span>
                   </div>
 
-                  <p className="text-[ #393E50] font-nunito font-semibold text-base leading-[20px] opacity-[.4]">
+                  <p className="text-[ #393E50] font-nunito font-semibold text-base leading-5 opacity-[.4]">
                     Travel Experiences
                   </p>
                 </div>
@@ -62,7 +62,7 @@ const Service = () => {
                     </span>
                   </div>
 
-                  <p className="text-[ #393E50] font-nunito font-semibold text-base leading-[20px] opacity-[.4]">
+                  <p className="text-[ #393E50] font-nunito font-semibold text-base leading-5 opacity-[.4]">
                     User Connected
                   </p>
                 </div>

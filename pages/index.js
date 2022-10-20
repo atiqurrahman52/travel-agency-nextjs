@@ -11,8 +11,10 @@ import Partners from "../components/home/Partners";
 import Loader from "../components/shared/Loader";
 import TourPackageSlider from "../components/home/TourPackageSlider";
  
+// data 
 import { comboData } from "../public/assets/data/home/comboData";
 import { inspirationData } from "../public/assets/data/home/inspirationData";
+import { partnersData } from "../public/assets/data/home/partnersData";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -48,7 +50,7 @@ export default function Home() {
           <TourPackageSlider data={europeData} sectionTitle="Europe" />
           <Gift />
           <TourPackageSlider data={africaData} sectionTitle="Africa" />
-          <Partners />
+          <Partners data={partnersData} />
         </Layout>
       )}
     </>

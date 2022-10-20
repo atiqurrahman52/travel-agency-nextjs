@@ -20,7 +20,7 @@ const AboutUs = () => {
               <h3 className="text-[#393E50] font-nunito font-extrabold lg:text-[40px] text-xl lg:leading-[48px] leading-[28px] lg:mb-[20px] mb-[16px]">
                 Tourelish is your only Trusted Tourmate
               </h3>
-              <p className="text-[#747474] font-nunito font-semibold text-base leading-[20px] lg:mb-10 mb-10">
+              <p className="text-[#747474] font-nunito font-semibold text-base leading-5 lg:mb-10 mb-10">
                 The worlds top travel counselors, the brands you knows, and the
                 advantages and genuine serenity you won t find elsewhere for
                 near and dear escapes or remote that could only be described as
@@ -58,7 +58,7 @@ const AboutUs = () => {
                   <h3 className="text-[#393E50] font-nunito font-extrabold lg:text-[28px] text-base lg:leading-[30px] leading-[22px]">
                     Tour Guide hhh
                   </h3>
-                  <p className="text-[#747474] font-nunito font-semibold lg:text-base text-sm leading-[20px]">
+                  <p className="text-[#747474] font-nunito font-semibold lg:text-base text-sm leading-5">
                     The worlds top travel counselors, the brands you knows, and
                     the advantages and genuine serenity you wont find elsewhere.
                   </p>
@@ -113,7 +113,7 @@ const AboutUs = () => {
                   <h3 className="text-[#393E50] font-nunito font-extrabold lg:text-[28px] text-base lg:leading-[30px] leading-[22px]">
                     Friendly price
                   </h3>
-                  <p className="text-[#747474] font-nunito font-semibold lg:text-base text-sm leading-[20px]">
+                  <p className="text-[#747474] font-nunito font-semibold lg:text-base text-sm leading-5">
                     The worlds top travel counselors, the brands you knows, and
                     the advantages and genuine serenity you wont find elsewhere.
                   </p>
@@ -166,7 +166,7 @@ const AboutUs = () => {
                   <h3 className="text-[#393E50] font-nunito font-extrabold lg:text-[28px] text-base lg:leading-[30px] leading-[22px]">
                     Reliable Tour
                   </h3>
-                  <p className="text-[#747474] font-nunito font-semibold lg:text-base text-sm leading-[20px]">
+                  <p className="text-[#747474] font-nunito font-semibold lg:text-base text-sm leading-5">
                     The worlds top travel counselors, the brands you knows, and
                     the advantages and genuine serenity you wont find elsewhere.
                   </p>

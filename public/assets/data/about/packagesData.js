@@ -1,5 +1,5 @@
 
-const packages = [
+const packagesData = [
   {
     id: 0,
     country: "Europe",
@@ -26,4 +26,4 @@ const packages = [
   },
 ];
 
-export {packages}
+export {packagesData}

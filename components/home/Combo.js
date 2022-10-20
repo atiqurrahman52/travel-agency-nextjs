@@ -43,7 +43,7 @@ const Combo = ({data}) => {
           <h3 className="text-primary text-2xl lg:text-[48px]  font-nunito font-extrabold lg:leading-[56px] leading-10 lg:text-left text-center mb-[20px]">
             Find the Perfect Combo
           </h3>
-          <p className="text-[#747474] text-base font-nunito font-[600] leading-[20px] lg:text-left text-center">
+          <p className="text-[#747474] text-base font-nunito font-[600] leading-5 lg:text-left text-center">
             Plan and Find your perfect package for next tour Plan and Find your
             perfect package for next tour Plan and Find your perfect package for
             next tour

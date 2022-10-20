@@ -8,7 +8,7 @@ const Gift = () => {
           <p className="font-nunito font-extrabold lg:text-[45px] text-[28px] lg:text-left text-center text-primary lg:leading-[56px] leading-10 mb-[24px]">
             Gift an Experience with Tourelish
           </p>
-          <p className="font-nunito font-[600] text-[#747474] text-base lg:text-left text-center leading-[20px] lg:mb-[24px] mb-[10px]">
+          <p className="font-nunito font-[600] text-[#747474] text-base lg:text-left text-center leading-5 lg:mb-[24px] mb-[10px]">
             Surpirse gift card for your loved one. Surpirse gift card for your
             loved one. Surpirse gift card for your loved one. Surpirse gift card
             for your loved one.

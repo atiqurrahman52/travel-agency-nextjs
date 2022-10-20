@@ -25,16 +25,16 @@ const Featured = () => {
                 />
               </div>
               <div className="absolute top-[33px] left-[32px] space-y-[15px]">
-                <p className="font-nunito font-[800] text-base text-white">
+                <p className="font-nunito font-extrabold text-base text-white">
                   {trips}
                 </p>
-                <p className="font-nunito font-[800] text-base text-white">
-                  {price}
+                <p className="font-nunito font-extrabold text-base text-white">
+                  ${price}
                 </p>
               </div>
               <div className="absolute bottom-7 left-[32px] flex items-center gap-2">
                 <MapPin className="text-white" size={18} />
-                <p className="font-nunito font-[600] text-sm text-white">
+                <p className="font-nunito font-semibold text-sm text-white">
                   {country}
                 </p>
               </div>

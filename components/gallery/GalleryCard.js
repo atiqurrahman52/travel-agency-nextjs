@@ -20,13 +20,13 @@ const GalleryCard = ({ data }) => {
   return (
     <div key={id} className="border rounded-lg p-5 col-span-1">
       <div className="flex items-center gap-2 mb-[24px]">
-        <span className="w-[10px] h-[10px] rounded-full bg-[#F30D60]"></span>
-        <p className="font-nunito font-extrabold lg:text-base text-sm text-[#393E50] leading-[20px]">
+        <span className="w-2.5 h-2.5 rounded-full bg-[#F30D60]"></span>
+        <p className="font-nunito font-extrabold lg:text-base text-sm text-[#393E50] leading-5">
           {country}
         </p>
       </div>
 
-      <p className="font-nunito font-extrabold lg:text-base text-sm text-[#393E50] leading-[20px] mb-[30px]">
+      <p className="font-nunito font-extrabold lg:text-base text-sm text-[#393E50] leading-5 mb-[30px]">
         {details}
       </p>
 

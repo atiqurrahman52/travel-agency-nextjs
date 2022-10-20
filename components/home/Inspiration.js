@@ -26,7 +26,7 @@ const Inspiration = ({ data }) => {
                 <p
                   className={`text-white font-nunito font-extrabold text-2xl ${
                     id !== 0 && "lg:text-base"
-                  } leading-[30px] md:leading-[20px]`}
+                  } leading-[30px] md:leading-5`}
                 >
                   {name}
                 </p>

@@ -1,4 +1,4 @@
-const partners = [
+const partnersData = [
     {
       id: 0,
       img: "/assets/images/partners/airbnb.png",
@@ -74,4 +74,4 @@ const partners = [
   ];
   
 
-  export {partners}
+  export {partnersData}

@@ -13,7 +13,7 @@ const SingleDestinationFacilities = ({ data }) => {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
             <HiMapPin className="text-accent text-xl" />
-            <p className="text-[#393E50] lg:text-base text-sm font-nunito font-semibold leading-[20px]">
+            <p className="text-[#393E50] lg:text-base text-sm font-nunito font-semibold leading-5">
               {country}
             </p>
           </div>
@@ -32,10 +32,10 @@ const SingleDestinationFacilities = ({ data }) => {
             <div className="flex gap-1.5 p-1 flex-col md:flex-row items-center md:items-start justify-center md:justify-start">
               <Calendar className="text-accent" size={32} />
               <div className="text-center md:text-left space-y-3">
-                <h3 className="text-[#393E50] text-base font-nunito font-extrabold leading-[20px]">
+                <h3 className="text-[#393E50] text-base font-nunito font-extrabold leading-5">
                   {title}
                 </h3>
-                <p className="text-[#747474] lg:text-base text-sm font-nunito font-semibold lg:leading-[20px] leading-[16px]">
+                <p className="text-[#747474] lg:text-base text-sm font-nunito font-semibold lg:leading-5 leading-[16px]">
                   {details}
                 </p>
               </div>
