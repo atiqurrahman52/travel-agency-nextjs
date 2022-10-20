@@ -8,13 +8,22 @@ const SingleDestinationGallery = ({ data }) => {
   const [currImg, setCurrImg] = useState(0);
   const imagesLeft = data.length - 5;
 
+  const settings = {
+    infinite: true,
+    speed: 2000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    arrows: false,
+  };
+
   return (
-    <div className="py-6 md:py-10">
+    <div className="py-6 md:py-10 gallery-image">
       <h3 className="md:text-left text-center text-[#393E50] md:text-[40px] text-2xl font-nunito font-extrabold leading-[48px] pb-4 md:pb-10">
         Gallery
       </h3>
 
-      <div className="grid md:grid-flow-col md:grid-rows-2 grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+      <div className="hidden md:grid md:grid-flow-col md:grid-rows-2 grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
         {data.map((data, i) => (
           <div
             key={i}
@@ -55,11 +64,19 @@ const SingleDestinationGallery = ({ data }) => {
         />
       </div>
 
-      <Slider {...settings}>
-        {
-          data.map()
-        }
-        </Slider>
+      <Slider {...settings} className="md:hidden">
+        {data.map((data, i) => (
+          <div key={i} className="relative h-[192px] w-full">
+            <Image
+              src={data.src}
+              layout="fill"
+              objectFit="cover"
+              alt=""
+              className="rounded-[10px]"
+            />
+          </div>
+        ))}
+      </Slider>
     </div>
   );
 };

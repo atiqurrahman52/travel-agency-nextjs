@@ -10,3 +10,7 @@ input:focus{
 textarea:focus{
   box-shadow: none !important;
 }
+
+/* .gallery-image .slick-slide {
+  margin: 0 10px;
+} */

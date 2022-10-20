@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Slider from "react-slick";
 import { MapPin } from "phosphor-react";
+import Link from "next/link";
 
 const TourPackageSlider = ({ data, sectionTitle }) => {
   const settings = {
@@ -53,31 +54,35 @@ const TourPackageSlider = ({ data, sectionTitle }) => {
         {sectionTitle}
       </p>
       <Slider {...settings}>
-        {data.map(({ id, location, packageName, price, facilities, img }) => (
-          <div key={id} className="relative gap-x-4">
-            <div className="mx-2">
-              <Image
-                src={img}
-                alt=""
-                width={306}
-                height={408}
-                objectFit="cover"
-                className="rounded-[20px]"
-              />
-            </div>
-            <div className="flex items-center gap-2 absolute bottom-24 left-5 text-white">
-              <MapPin size={16} />
-              <p>{location}</p>
-            </div>
-            <div className="lg:text-black  text-base font-nunito font-semibold leading-5 mt-6">
-              <p className="mb-[9px]">
-                <span>{packageName}</span> &#124;{" "}
-                <span>{facilities[0].details}</span>
-              </p>
-              <p>${price}</p>
-            </div>
-          </div>
-        ))}
+        {data.map(
+          ({ id, location, packageName, price, facilities, img, cardImg }) => (
+            <Link key={id} href={`/destination/${id}`}>
+              <a className="relative gap-x-4 cursor-pointer">
+                <div className="mx-2">
+                  <Image
+                    src={cardImg ? cardImg : img}
+                    alt=""
+                    width={306}
+                    height={408}
+                    objectFit="cover"
+                    className="rounded-[20px]"
+                  />
+                </div>
+                <div className="flex items-center gap-2 absolute bottom-24 left-5 text-white">
+                  <MapPin size={16} />
+                  <p>{location}</p>
+                </div>
+                <div className="lg:text-black  text-base font-nunito font-semibold leading-5 mt-6">
+                  <p className="mb-[9px]">
+                    <span>{packageName}</span> &#124;{" "}
+                    <span>{facilities[0].details}</span>
+                  </p>
+                  <p>${price}</p>
+                </div>
+              </a>
+            </Link>
+          )
+        )}
       </Slider>
     </div>
   );
