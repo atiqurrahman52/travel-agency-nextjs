@@ -13,8 +13,7 @@ const GalleryCard = ({ data }) => {
     arrows: false,
     autoplay: true,
     cssEase:"linear"
-    // pauseOnHover: true
-    // centerPadding: "20px",
+ 
   };
 
   return (

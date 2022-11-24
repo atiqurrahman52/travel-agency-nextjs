@@ -5,7 +5,6 @@ import 'react-toastify/dist/ReactToastify.css';
 
 import "../styles/globals.css";
 import "../styles/destination.css";
-// import "../styles/navbar.css";
 import "../styles/pagination.css"
 import "../styles/single-destination.css"
 
