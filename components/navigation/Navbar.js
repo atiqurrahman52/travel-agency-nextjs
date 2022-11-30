@@ -13,6 +13,10 @@ export default function Navbar() {
   const [colorChange, setColorChange] = useState(false);
 
   const destinationPath = router.pathname === "/destination";
+  const singleDestinationPath =
+    router.pathname === "/destination/[destinationTitle]";
+
+  // console.log(router);
 
   const changeNavbarColor = () => {
     if (window.scrollY >= 80) {
@@ -33,7 +37,9 @@ export default function Navbar() {
     <div className="mb-16 md:mb-0">
       <nav
         className={`w-full shadow-lg md:shadow-none bg-white text-primary md:pb-5 md:pt-6 fixed top-0 left-0 z-50 transition-all duration-500 ${
-          colorChange ? "!shadow-lg" : "md:bg-transparent"
+          colorChange
+            ? "!shadow-lg"
+            : !singleDestinationPath && "md:bg-transparent"
         }`}
       >
         <div className="justify-center px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
@@ -65,15 +71,17 @@ export default function Navbar() {
                     <div key={id}>
                       {label ? (
                         <p
-                          className={`uppercase ${
+                          className={`uppercase font-nunito text-sm md:text-base ${
                             router.pathname === path
                               ? destinationPath && !colorChange
                                 ? "md:text-white font-extrabold"
                                 : "text-primary font-extrabold"
                               : destinationPath && !colorChange
                               ? "md:text-white font-semibold"
+                              : singleDestinationPath
+                              ? "text-secondary font-semibold"
                               : "text-primary/40 font-semibold"
-                          } font-nunito  text-sm md:text-base`}
+                          }`}
                         >
                           <Link href={path}>
                             <a>{label}</a>

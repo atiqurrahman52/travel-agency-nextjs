@@ -1,7 +1,5 @@
 .destination-bg {
-  
-  background-image: url("../public/assets/images/destination/destination-bg.png");
-
+  background-image: url("../public/assets/images/destination/destination-bg.webp");
 }
 /* } */
 
@@ -9,12 +7,7 @@
   background: #f1b4c4;
   border: 1px solid rgba(208, 3, 56, 0.4);
 }
-/* .single-destination {
-  background-image: url("../assets//images/single-destination/single-destination.svg");
-} */
 
-/* .scroll-bar {
-} */
 .scroll-bar::-webkit-scrollbar {
   height: 3px;
 }

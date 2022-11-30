@@ -1,9 +1,4 @@
 
-.single-destination {
-  /* background-image: url("/assets/images/single-destination/single-page-bg.png"); */
-}
-
-
 input:focus{
   box-shadow: none !important;
 }
@@ -11,6 +6,3 @@ textarea:focus{
   box-shadow: none !important;
 }
 
-/* .gallery-image .slick-slide {
-  margin: 0 10px;
-} */

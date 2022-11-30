@@ -7,7 +7,7 @@ const DestinationCard = ({ data }) => {
   return (
     <Link href={`/destination/${id}`}>
       <a>
-        <div className="relative group overflow-hidden rounded-[20px] cursor-pointer h-[192px] lg:h-[250px] xl:h-[350px] w-full">
+        <div className="relative group overflow-hidden rounded-lg md:rounded-[20px] cursor-pointer h-[192px] lg:h-[250px] xl:h-[350px] w-full">
           <Image
             className="group-hover:scale-125 transition-all duration-[2000ms]"
             src={img}

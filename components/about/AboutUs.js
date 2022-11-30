@@ -2,13 +2,12 @@ import Image from "next/image";
 
 const AboutUs = () => {
   return (
-    <div className="mt-32 md:mt-44">
+    <div className="mt-24 md:mt-44">
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="">
-            {/* <img src={about} alt="" /> */}
             <Image
-              src="/assets/images/about/about.png"
+              src="/assets/images/about/about.webp"
               alt=""
               width={636}
               height={601}
@@ -123,12 +122,6 @@ const AboutUs = () => {
 
             <div className="lg:mb-[31px] mb-[16px]">
               <div className="flex gap-[16px] mb-[10px]">
-                {/* <Image
-                    className="w-5 md:w-10 h-5 md:h-10"
-                    src="/assets/images/about/reliabletour.png"
-                    alt=""
-                    width={200} height={200}
-                  /> */}
                 <svg
                   width="40"
                   height="40"

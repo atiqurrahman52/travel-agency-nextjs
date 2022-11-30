@@ -15,14 +15,16 @@ const SingleDestinationGallery = ({ data }) => {
     slidesToScroll: 1,
     autoplay: true,
     arrows: false,
+   
   };
 
   return (
-    <div className="py-6 md:py-10 gallery-image">
+    <div className="py-6 md:py-10">
       <h3 className="md:text-left text-center text-[#393E50] md:text-[40px] text-2xl font-nunito font-extrabold leading-[48px] pb-4 md:pb-10">
-        Gallery
+        Gallery 
       </h3>
 
+      {/* <div className="hidden md:grid md:grid-flow-col md:grid-rows-2 grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6"> */}
       <div className="hidden md:grid md:grid-flow-col md:grid-rows-2 grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
         {data.map((data, i) => (
           <div

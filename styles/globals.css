@@ -76,3 +76,9 @@
   }
 }
 /* preloader */
+
+
+
+.gallerySLider .slick-slide {
+  margin: 0 1px;
+}

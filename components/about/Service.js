@@ -70,9 +70,9 @@ const Service = () => {
             </div>
 
             <div className="col-span-6 order-1 md:mt-0 mt-[10px]">
-              {/* <img src={travel} alt="" /> */}
+              
               <Image
-                src="/assets/images/about/travel.png"
+                src="/assets/images/about/travel.webp"
                 alt=""
                 width={636}
                 height={406}

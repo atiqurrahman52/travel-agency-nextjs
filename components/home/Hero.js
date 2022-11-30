@@ -15,28 +15,22 @@ const Hero = () => {
               We Take Care of all your Dream Tours{" "}
             </h3>
             <p className="font-nunito font-normal text-secondary text-2xl leading-[36px] lg:leading-[38px] text-center lg:text-left">
-              Let&rsquo;s start your journey with us, your dream will come true...
+              Let&rsquo;s start your journey with us, your dream will come
+              true...
             </p>
           </div>
 
           <div className="col-span-12 lg:col-span-6 mb-8">
             <Image
-              src="/assets/images/header/Hero Section.png"
+              src="/assets/images/header/hero-section.webp"
               alt=""
-             
-              width={636} height={497}
-             
+              width={636}
+              height={497}
             />
           </div>
 
           <div className="lg:col-span-3 col-span-6 mb-6">
             <div className="flex md:gap-5 gap-2 p-1 flex-col md:flex-row items-center md:items-center justify-center md:justify-center">
-              {/* <Image
-                className="w-[30px] h-[30px] lg:w-10 lg:h-10"
-                src="/assets/images/countdown/country.svg"
-                alt=""
-                width={45} height={45}
-              /> */}
               <svg
                 className="w-[30px] lg:w-[45px] h-[30px] lg:h-[45px]"
                 viewBox="0 0 45 45"
@@ -259,7 +253,6 @@ const Hero = () => {
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>

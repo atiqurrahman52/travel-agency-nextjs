@@ -3,7 +3,7 @@ const packagesData = [
   {
     id: 0,
     country: "Europe",
-    img: "/assets/images/about/Vector.png",
+    img: "/assets/images/about/europe.svg",
     pack: " 35 Package",
   },
   {

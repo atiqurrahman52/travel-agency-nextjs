@@ -39,7 +39,7 @@ const AllDestination = ({ data }) => {
         <p className="text-[#393E50]  font-nunito font-extrabold lg:text-[32px] text-base lg:leading-10 leading-[22px] text-center mb-[32px]">
           Find your Destination from Our Travel Bucket
         </p>
-        {/* <div className="flex md:justify-center justify-start items-center gap-10  text-[#E46D8C] scroll-bar  overflow-x-auto md:overflow-x-visible scrollbar-thumb-blue-600 hover:scrollbar-thumb-red-500 "> */}
+       
         <div className="flex justify-start md:justify-center items-center gap-10  text-[#E46D8C] scroll-bar overflow-x-auto">
           {["europe", "asia", "africa", "north america"].map((item, i) => {
             return (

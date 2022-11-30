@@ -33,7 +33,7 @@ const SingleDestinationForm = () => {
   return (
     <form
       onSubmit={handleFormSubmit}
-      className="p-[33px] rounded-[20px] bg-white shadow-[0px_0px_40px_rgba(0,0,0,0.05)]"
+      className="p-2 md:p-[33px] rounded-[20px] bg-white shadow-[0px_0px_40px_rgba(0,0,0,0.05)]"
     >
       <ToastContainer />
       <input

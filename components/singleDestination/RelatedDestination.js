@@ -16,7 +16,8 @@ const RelatedDestination = () => {
           height={342}
         />
 
-        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-[#00000000]/0 to-[#00000000]/100 p-4 lg:p-11">
+        {/* <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-[#00000000]/0 to-[#00000000]/100 p-4 lg:p-11"> */}
+        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent via-transparent to-black p-4 lg:p-11">
           <div className="flex items-start justify-between flex-col h-full">
             <div className="lg:flex flex-col justify-center text-white font-nunito font-extrabold text-base leading-5 gap-3">
               <h3 className="lg:mb-0 mb-2">Manali Jeep Safari</h3>
